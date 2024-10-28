@@ -1,2 +1,23 @@
-# basic-webpage
-This repository provides a foundational HTML and CSS setup for creating a simple, structured webpage. Ideal for beginners, it includes a minimal file structure and easy-to-understand code for learning the basics of webpage organization, including headers, footers, and content sections.
+# Basic Webpage Structure
+
+This repository contains a simple HTML and CSS structure for a basic webpage. Ideal for beginners learning HTML and CSS!
+
+### Contents
+- **index.html**: Core HTML file with basic structure
+- **styles.css**: Basic styling to enhance layout
+
+### Structure
+Basic-Webpage-Structure/
+│
+├── index.html        # Main HTML file
+├── styles.css        # Optional: Basic CSS for styling
+└── README.md         # Documentation
+
+
+### Usage
+1. Clone or download this repository.
+2. Open `index.html` in a browser to view the webpage.
+3. Modify the content to suit your project.
+
+Happy Coding!
+
