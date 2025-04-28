@@ -13,11 +13,3 @@ Basic-Webpage-Structure/
 ├── styles.css        # Optional: Basic CSS for styling
 └── README.md         # Documentation
 
-
-### Usage
-1. Clone or download this repository.
-2. Open `index.html` in a browser to view the webpage.
-3. Modify the content to suit your project.
-
-Happy Coding!
-

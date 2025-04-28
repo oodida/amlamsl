@@ -14,7 +14,45 @@ section, aside {
   margin: 20px;
 }
 
-a {
+/*a {
   color: #333;
   text-decoration: none;
+}*/
+/* Style for the logo */
+.logo-container {
+  position: absolute; /* Absolute positioning relative to the page */
+  top: 10px; /* Space from the top of the page */
+  left: 10px; /* Space from the left of the page */
+  z-index: 10; /* Ensure the logo is above other elements */
+}
+
+.logo {
+  width: 100px; /* Adjust logo size */
+  height: auto; /* Maintain aspect ratio */
+  padding-top: 40px; /* Adjust this based on the size of your logo */
+}
+
+
+.button-42 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+  height: 40px; /* You can adjust this to make it smaller if needed */
+  line-height: 40px; /* Ensure the text stays vertically centered */
+  padding: 0 15px; /* Reduce padding to make the button more compact */
+  width: auto; /* Set to auto so it doesn't stretch to 100% */
+  border: 0;
+  transition: box-shadow .2s;
+  text-align: center;
+  text-decoration: none; /* This removes the underline */
+  margin: 5px;  /* Add spacing between buttons */
+}
+
+.button-42:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
 }
