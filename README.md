@@ -1,6 +1,6 @@
 # Basic Webpage Structure
 
-This repository contains a simple HTML and CSS structure for a basic webpage. Ideal for beginners learning HTML and CSS!
+Amlam Pharmaceutical website
 
 ### Contents
 - **index.html**: Core HTML file with basic structure
