@@ -63,6 +63,9 @@ header {
 
 /* Logo Styling */
 .logo {
+  position: absolute;
+  top: -5px;
+  left: 250px; /* use right: 20px; for top-right */
   width: 120px; /* Adjust logo size */
   height: auto;
   max-width: 100%;
