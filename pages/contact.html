@@ -4,34 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Basic Webpage</title>
-  <link rel="stylesheet" href="css/style.css"> <!-- Link to CSS file -->
+  <link rel="stylesheet" href="../css/style.css"> <!-- Link to CSS file -->
 </head>
 <body>
 
   <header>
     <div class="container">
       <div class="header-inner">
-        <img src="newlogo.jpeg" alt="Amlam SL Ltd Logo" class="logo" />
+        <img src="../images/newlogo.jpeg" alt="Amlam SL Ltd Logo" class="logo" />
         <nav class="top-nav">
-          <a href="pages/about.html" class="nav-btn">About Us</a>
-          <a href="pages/mission.html" class="nav-btn">Mission & Values</a>
-          <a href="pages/why.html" class="nav-btn">Why We Do It</a>
-          <a href="pages/contact.html" class="nav-btn">Contact Us</a> 
+          <a href="about.html" class="nav-btn">About Us</a>
+          <a href="mission.html" class="nav-btn">Mission & Values</a>
+          <a href="why.html" class="nav-btn">Why We Do It</a>
+          <a href="contact.html" class="nav-btn">Contact Us</a> 
         </nav>
       </div>
     </div>
   </header>
 
-<section>
-    <div class="section-content">
-      <div class="section-text">
+    <section class="contact-section">
+      <div class="container">
+        <h2>Contact Us</h2>
+    
+        <form action="https://formsubmit.co/contact@amlamsl.com" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <input type="tel" name="phone" placeholder="Your Phone Number">
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
+      <div class="contact-info">
         <h3>Call Us: </h3>
         <a href="tel:+23276520481">+232 76 520 481</a>
+        <h3>Email Us: </h3>
+        <a href="mailto:info@amlamsl.com">info@amlamsl.com</a>
       </div>
-      <div class="section-image">
-        <img src="phonesymbol.png" alt="Email symbol">
-      </div>
-    </div>
-    <h3>Email Us: </h3>
-    <a href="mailto:info@amlamsl.com">info@amlamsl.com</a>
-  </section>
+    </section>
+    
+  
+    <footer>
+      <p>&copy; 2025 Amlam SL Limited. All rights reserved.</p>
+    </footer>
+  
+  </body>
+  </html>  
